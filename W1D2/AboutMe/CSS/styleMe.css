@@ -5,23 +5,22 @@
 
 body {
 
-    text-decoration: none;
+    background-color: #E7F2FF;
+    box-sizing: border-box;
+    color: rgb(55, 57, 95);
+    font-family: "Montserrat";
+    font-size: 10px;
     margin: 0;
     padding: 0;
-    font-size: 10px;
-    box-sizing: border-box;
-    font-family: "Montserrat";
-    background-color: #E7F2FF;
-    color: rgb(55, 57, 95);
+    text-decoration: none;
 
 }
 
 header div {
-    margin-top: -50px;
-    width: 100vw;
-    position: fixed;
     background-color: rgb(55, 57, 95);
-    /* box-shadow: 1px; */
+    margin-top: -50px;
+    position: fixed;
+    width: 100vw;
 
 }
 
@@ -41,33 +40,33 @@ em {
 }
 
 h1 {
+    color: rgb(252, 252, 252);
     font-size: 14px;
     padding-left: 12px;
-    color: rgb(252, 252, 252);
 }
 
 h2 {
-    /* width: 60vw; */
+
     background-color: rgb(55, 57, 95);
+    color: rgb(250, 251, 253);
     font-size: 11px;
     padding-left: 12px;
-    color: rgb(250, 251, 253);
 
 }
 
 nav {
 
-    margin-left: 13px;
     color: white;
+    margin-left: 13px;
 
 }
 
 nav>a {
 
-    text-decoration: none;
     color: white;
     font-size: 9px;
     padding-right: 5px;
+    text-decoration: none;
 }
 
 nav>a:hover {
@@ -78,19 +77,19 @@ nav>a:hover {
 }
 
 nav>a:visited {
-    text-decoration: none;
     color: white;
+    text-decoration: none;
 }
 
 h3 {
-    padding-top: 5px;
     display: inline-block;
+    padding-top: 5px;
 }
 
 #image1 {
 
-    width: 150px;
     height: 200px;
+    width: 150px;
 }
 
 #image2 {
@@ -114,17 +113,17 @@ li>h5 {
 }
 
 li>p {
-    margin-top: -1px;
-    margin-bottom: 10px;
-    padding-left: 15px;
-    font-weight: 400;
     font-style: normal;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top: -1px;
+    padding-left: 15px;
 }
 
 .imdb {
-    text-decoration: none;
     color: brown;
     font-weight: 500;
+    text-decoration: none;
 }
 
 .imdb:hover {
@@ -132,7 +131,7 @@ li>p {
 }
 
 .imdb:visited {
-    text-decoration: none;
     color: brown;
     font-weight: 500;
+    text-decoration: none;
 }
