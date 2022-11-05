@@ -1,0 +1,10 @@
+Name: Daniel Tekie
+IdNo: 111664
+
+URL for assignment #3
+
+My Github repository:
+https://github.com/dtekie/CS472
+
+My web page:
+website: https://dtekie.github.io/CS472/W1D4/index.html
