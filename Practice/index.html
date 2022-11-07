@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Web page</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      img {
+        width: 100px;
+        border-radius: 50px;
+        float: left;
+        margin-right: 10px;
+      }
+      p.username {
+        font-weight: bold;
+      }
+      em{
+        color: blue;
+        font-size: normal;
+        font-style: normal;
+      }
+
+      .myImage {
+        border: 100px;
+        border-radius: 10px;
+        margin-top: 80px;
+        padding-left: 0 ;
+        width: 200px;
+        height: 200px;
+        float: left;
+        margin-right: 10px;
+        object-fit: cover;
+      }
+      ul{
+        list-style: none;
+      }
+      nav p{
+        display: inline;
+        margin-right: 100px;
+      }
+      table,td, th{
+        padding:5px;
+        border: 1px solid gray;
+        border-collapse: collapse;
+      }
+      tfoot th{
+        text-align: left;
+      }
+      div.first-div{
+        background-color: gold;
+      }
+     
+    </style>
+    <nav>
+      <p>Menu</p>
+      <p>About us</p>
+      <p>Contact info</p>
+    </nav>
+    
+          
+  </head>
+  <body>
+    <a href="https://www.google.com" target = "_blank">Google</a>
+    <img src="images/DanielTekie.jpg" alt="my image" >
+    <img class = "myImage" src="./images/coffee.jpg" alt="A coffee mug in a table">
+    <p class="username"><em>@danieltekie</em>;</p>
+    <p>I like learning &copy;HTML;</p>
+    <br>
+    <br>
+    <ol>
+      <li>MSCS Courses: </li>
+      <li>BSCS Courses:</li>
+      <li>PhD Courses:</li>
+    </ol>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2">
+            Expenses
+          </th>
+        </tr>
+        <tr>
+          <th>Category</th>
+          <th>Amount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Marketing</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>Accounting</td>
+          <td>$200</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>Total</th>
+          <th>$300</th>
+        </tr>
+      </tfoot>
+    </table>
+
+    <div class="first-div">
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem nisi iste velit quibusdam eum vel assumenda quisquam, numquam pariatur repellendus.
+      </p>
+    </div>
+  </body>
+</html>
