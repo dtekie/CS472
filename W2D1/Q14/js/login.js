@@ -15,14 +15,15 @@ window.onload = function () {
 
     // };
 
-    form.addEventListener("submit",test);
+    form.addEventListener("submit",printToConsole);
 
-    function test(){
+    function printToConsole(){
         console.log("The email address:" + emailField.value);
         console.log("password: " + passwordField.value);
 
-        form.reset();
+        form.reset();  
     }
+    
     
 }
 

@@ -1,6 +1,8 @@
 
 'use-strict'
 
+console.log("Results for Q1-Q13");
+
 //1
 function max(a,b){
     if (a > b){
