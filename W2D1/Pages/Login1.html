@@ -6,30 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/style.css">
+    <!-- <script>defer src = "../Q14_15/js/login.js"</script> -->
     <title>Login 1</title>
 </head>
 
 <body>
 
-    <form action="#" autocomplete=“on”>
+    <form action="#" autocomplete=“on” id = "form">
         <label for="email">Email address</label>
-        <input type="email" placeholder="Enter email">
+        <input id = "email" required type="email" placeholder="Enter email">
         <p>We'll never share your email with anyone else.</p>
         <label for="password">Password</label>
-        <input type="password" placeholder="Password " pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}$">
+        <input id = "password" required type="password" placeholder="Password " pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}$">
 
         <label for="text">URL</label>
-        <input type="text" placeholder="Input URL" pattern="^http[s]?:\/\/.+">
+        <input id = "url" type="text" placeholder="Input URL" pattern="^http[s]?:\/\/.+">
 
         <label id="check"><input type="checkbox">Check me out</label>
-        <input type="submit">
+        <input id = "submit" type="submit" value = Login> 
     </form>
-
-
-
-
-
-
 
 </body>
 

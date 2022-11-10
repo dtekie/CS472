@@ -1,7 +1,0 @@
-URL for assignment #2
-
-My Github repository:
-https://github.com/dtekie/CS472
-
-My web page:
-https://dtekie.github.io/CS472/W1D2/index.html

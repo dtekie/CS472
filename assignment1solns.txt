@@ -1,8 +1,0 @@
-Hi Professor,
-Please find below the links for my solutions to assignment #1
-
-my website:
-https://dtekie.github.io/CS472/
-
-my Github repository:
-https://github.com/dtekie/CS472.git
