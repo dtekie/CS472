@@ -149,9 +149,7 @@ function printFibo(n, a, b) {
         const sum = a + b;
         a = b;
         b = sum;
-
     }
-
 }
 
 printFibo(3, 0, 1);

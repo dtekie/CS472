@@ -1,0 +1,27 @@
+As per the professor's instruction Only solutions for Q1-5 have been provided below:
+1. The output is as below:  
+
+undefined
+    =>8
+    =>10
+    =>9
+    =>10
+    =>1
+
+2.  Global scope is any variable or function declaration outside of a function. 
+However,local scope is a scope within a function or a block. 
+Block scope has been introduced to Javascript after ECMA Script-6 (2015) with the introduction of the 
+let and const.
+
+3.  a.  no
+    b.  yes
+    c.  no
+    d.  yes 
+    e.  yes
+
+4.  The output is:
+	=>81
+    	=>25
+
+5.  Output: 10
+

@@ -123,7 +123,7 @@ function findSecondBiggest(arr){
 
 //13
 function findFibo(n,a,b){
-    let sum = a+b;
+    //let sum = a+b;
     for (let i = 0; i<n; i++){
         console.log(a);
         a = b;
@@ -160,6 +160,7 @@ console.log(findFibo(10,0,1))
 secondLage = findSecondBiggest([35,25,100,4,5,31,30]);
 console.log(secondLage);
 console.log(oddArray([1,2,3,4,5,6,7]));
+console.log(findFibo(4,0,1));
 
 
 

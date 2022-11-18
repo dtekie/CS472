@@ -1,0 +1,26 @@
+#mm{
+    margin-left: 5%;
+}
+
+#buttons{
+    margin-top: 2%;
+}
+#fullname{
+    width: 1000px;
+    
+}
+#txtarea{
+    width: 1000px;
+}
+#form{
+    background-attachment: yellow;
+}
+nav.acctnav{
+    background-color: black;
+    height: 50px;
+    color: white;
+}
+#cs472{
+    font-size: 100;
+    margin-right: 50px;
+}

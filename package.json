@@ -1,0 +1,23 @@
+{
+  "name": "cs472",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtekie/CS472.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dtekie/CS472/issues"
+  },
+  "homepage": "https://github.com/dtekie/CS472#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
