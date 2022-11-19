@@ -26,7 +26,7 @@ const person2 = Object.create(person, {
     value: "1998-12-10",
   },
 });
-document.writeln(
+console.log(
   `The person’s name is ${person2.getName()}\n${person2.getName()} was born on ${
     person2.dateOfBirth
   }`
@@ -43,7 +43,7 @@ const employee = Object.create(person, {
 });
 
 employee.doJob = function (jobTitle) {
-  document.writeln(`${this.name} is a ${jobTitle} who earns $${this.salary}`);
+  console.log(`${this.name} is a ${jobTitle} who earns $${this.salary}`);
 };
 
 const person3 = Object.create(employee, {
